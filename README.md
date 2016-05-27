@@ -20,17 +20,6 @@ permalink: /
 
 Learn best practices in JavaScript in this intensive, five-session course. Topics include data encapsulation, closures, binding, inheritance, and name spacing. Discover some of the lesser-known, yet useful, features of the language, such as how to debug JavaScript problems on different browsers and improve performance. Create interactive webpages using third-party JavaScript libraries.
 
-Computers are provided in the lab, though you are encouraged to bring a laptop for in-class exercises.
-
-## Prerequisites
-
-* [INFO1-CE9755 - JavaScript](http://scps.nyu.edu/content/scps/academics/course_detail.html?id=INFO1-CE9755) ([syllabus](http://samsultan.com/javascript)) or equivalent
-* Understanding of variables, data types, control flow, and basic function usage in JavaScript
-* Strong intermediate knowledge of HTML, and at least basics of CSS
-* Basic jQuery knowledge (DOM interaction like adding/removing elements/classes, etc.)
-
-These won't be enforced by the instructor, but you will be pretty lost without understanding those concepts. If you need a refresher, take a look at the [Beginner Materials](#beginner-materials).
-
 ## Course Overview
 
 We will dive into the nuances of JavaScript, how prototypal inheritance compares to classical inheritance, and how this can be used to build dynamic and complex web applications.  Modern tools like jQuery and BackboneJS will be discussed, but students will learn the building blocks of these frameworks and after this course be able to understand what is happening under the hood.  The focus will be on development for browsers, though most applies to other systems like Node.js, Phonegap, etc.  Topics covered include:
@@ -74,33 +63,6 @@ Enabling `Edit`->`Automatically Sync after Committing` is recommended. Here are 
 When the pull request is created, you should see a message saying that "the Travis CI build is in progress" – this means that your solution is being automatically checked for syntax errors.  If this "build" ends up failing (which will show a red "X"), click through the "details" link and scroll to the bottom to see what the errors were.  Per the [requirements](#requirements) below, please fix the issues and push up the changes.
 
 Feedback will be given in the pull request, so please respond with your thoughts and questions!  You are welcome to open the pull request early as a work-in-progress if you are stuck and want to ask a question.  Note that your solution will also be live at `http://USERNAME.github.io/EXERCISE`.
-
-#### Versions
-
-For exercises with multiple Versions (`V1`, `V2`, etc.) listed in the README: these are intended as guidelines for how to complete the assignments in the smallest/simplest possible increments.  You are expected to reach the highest Version for each assignment by the due date. See also: [extra credit](#extra-credit).
-
-### Requirements
-
-These apply to real life, as well.
-
-* [Travis CI](https://docs.travis-ci.com/) build should pass, which includes:
-    * All HTML files should pass [W3C Markup Validation](http://validator.w3.org).
-    * All written JS should pass [JSHint](http://jshint.com).
-* Must apply "good programming style" learned in class
-    * Functions should be "short" (see [Sandi Metz's rules for developers](https://robots.thoughtbot.com/sandi-metz-rules-for-developers)).
-    * Optimize for readability.
-        * ["Programs must be written for people to read, and only incidentally for machines to execute." -Harold Abelson](https://www.goodreads.com/quotes/9168-programs-must-be-written-for-people-to-read-and-only)
-    * Avoid using anonymous callbacks within other functions, especially if the callback is more than one or two lines.
-    * For projects, use Object-Oriented Programming.
-* Any borrowed code must be properly [annotated](#instructor).
-
-#### Extra Credit
-
-Bonus points for:
-
-* Automated tests
-* Creativity (as long as requirements are fulfilled)
-* Anything listed under `BONUS` in the README of the exercise.
 
 ## Course Outline
 
