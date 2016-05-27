@@ -1,7 +1,4 @@
----
-layout: default
-permalink: /
----
+
 
 # Advanced JavaScript syllabus
 
